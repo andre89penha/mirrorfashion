@@ -184,3 +184,29 @@ footer .container {
 	float: left;
 	margin-left: 25px;
 }
+
+/* Estilizando bostoes play e pause com css */
+
+ .destaque {
+ 	position: relative;
+ }
+
+ .pause, 
+ .play {
+ 	display: block;
+ 	position: absolute;
+ 	right: 15px;
+ 	top:15px;
+ }
+.pause {
+	border-left: 10px solid #900;
+	border-right: 10px solid #900;
+	height: 30px;
+	width: 5px;
+}
+.play {
+	border-left: 25px solid #900;
+	border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;
+
+}
