@@ -5,6 +5,7 @@
 	padding-right: 35px;
 	text-align: right;
 	width: 170px;
+	height: 50px;
 }
 
 .menu-opcoes ul {
@@ -209,4 +210,69 @@ footer .container {
 	border-bottom: 15px solid transparent;
 	border-top: 15px solid transparent;
 
+}
+
+.menu-opcoes a:hover {
+	color: #007dc6;
+}
+
+.menu-opcoes a:active {
+	color: #867dc6;
+}
+
+.menu-departamentos li ul{
+	display: none;
+}
+
+.menu-departamentos li:hover ul {
+	display: block;
+}
+
+.menu-departamentos ul ul li {
+	background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a:before {
+	content: '\2729';
+	padding-right: 3px;
+}
+
+.painel h2:before {
+	content: '\2756';
+	padding-right: 5px;
+	opacity: 0.4;
+}
+
+
+.painel {
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #999;
+}
+
+.painel h2 {
+	text-shadow: 3px 3px 2px rgba(255,255,255,0.8);
+}
+
+.novidades {
+	background: linear-gradient(#f5dcdc , #f4bebe);
+}
+
+.mais-vendidos {
+	background: linear-gradient(#dcdcf5 , #bebef4);
+}
+
+.painel li:hover {
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 5px #333;
+
+	transition: 0.7s ease-in;
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover {
+	transform: scale(1.2) rotate(5deg);
+}
+
+.painel li {
+	transition: 0.7s ease-out;
 }
